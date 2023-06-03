@@ -7,7 +7,8 @@ the term project for the 2022/2023 second semester course AIN3002 (Deep Learning
 
 this repository contains the codes and resources needed to implement the experiments described in the [project report](AIN3002ProjectReport.pdf).
 
-we conducted a number of separate experiments to test the effectiveness of using dropout on machine learning models to prevent overfitting and improve the validation performance, some other experiments tested out how well dropout compares with other techniques that were previously used to conduct similar tasks
+we conducted a number of separate experiments to test the effectiveness of using dropout on machine learning models to prevent overfitting and improve the validation performance, some other experiments tested out how well dropout compares with other techniques that were previously used to conduct similar tasks.
+
 the codes for the experiments are in the codes folder in this repository, the structure of the file is as follows:
 
 - [codes]( /codes/)
