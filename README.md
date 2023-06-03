@@ -26,7 +26,7 @@ the codes for the experiments are in the codes folder in this repository, the st
 We will go over the libraries needed to build our models, import datasets, preprocess and prepare data, and plot our results, as well as information about the training process, our method and platform of training, and the finetuning and hyperparameters used to achieve our results.
 
 ## Table of Contents
-- [Libraries and Packages](#Libraries and Packages)
+- [Libraries and Packages](#LibrariesandPackages)
 - [Usage](#usage)
 - [Examples](#examples)
 - [Documentation](#documentation)
