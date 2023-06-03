@@ -3,7 +3,7 @@ the term project for the 2022/2023 second semester course AIN3002 (Deep Learning
 
 # Examining the Impact of Dropout on Overfitting in Deep Learning Architectures
 
-![Project Logo]([logo.png](https://cdn.discordapp.com/attachments/688277804680216605/1114573225578463252/picture6.png)) 
+![Project Logo]((https://cdn.discordapp.com/attachments/688277804680216605/1114573225578463252/picture6.png)) 
 
 ## Table of Contents
 - [Installation](#installation)
