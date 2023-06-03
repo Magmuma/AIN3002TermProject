@@ -66,7 +66,21 @@ To install Matplotlib using pip, you can run the following command:
   ```
   
   ## DataSets
-<!-- Explain how to use your project -->
+## Datasets
+
+### MNIST
+
+The MNIST dataset is a widely-used benchmark dataset for image classification tasks. It consists of 60,000 training images and 10,000 test images of handwritten digits (0-9) with corresponding labels.
+(![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/0f2450d6-80c2-41ee-be24-19fdb2840f81)
+)
+
+To import the MNIST dataset from TensorFlow, you can use the following code:
+```python
+from tensorflow.keras.datasets import mnist
+
+# Load the MNIST dataset
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
 
 ## Models
 <!-- Include examples or screenshots -->
