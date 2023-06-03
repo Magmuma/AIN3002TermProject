@@ -82,7 +82,6 @@ To import the MNIST dataset from TensorFlow, you can use the following code:
 ```python
 from tensorflow.keras.datasets import mnist
 
-# Load the MNIST dataset
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
 
@@ -97,10 +96,8 @@ To import the CIFAR-10 and CIFAR-100 datasets from TensorFlow, you can use the f
 ```python
 from tensorflow.keras.datasets import cifar10, cifar100
 
-# Load the CIFAR-10 dataset
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
-# Load the CIFAR-100 dataset
 (x_train, y_train), (x_test, y_test) = cifar100.load_data(label_mode='fine')
 
 ```
