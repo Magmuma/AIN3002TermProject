@@ -14,7 +14,7 @@ the codes for the experiments are in the codes folder in this repository, the st
    - [DNN vs BNN]( /codes/DNN vs BNN/)
    - [MINST]( /codes/MINST/)
    - [Plot DataPoints]( /codes/Plot DataPoints/)
-   - [Regualizers]( /codes/ Regualizers /))
+   - [Regualizers]( /codes/ Regualizers /)
 
 
 ## Table of Contents
