@@ -112,7 +112,35 @@ this is a manually generated database that consists of 150 datapoints, the data 
 
 
 ## Models
-<!-- Include examples or screenshots -->
+Tensorflow keras allows us to build machine learning models in a simple and user-friendly way, the many libraries they offer cover much of what we need to build models of all sizes, it is very easy to add and remove layers, set input dimensions, set activation functions, change and fine-tune parameters, add regularizes and optimizers, and most importantly for our project, add dropout layers.
+
+To build a Kares model, it’s very easy, and can be done in this format:
+
+```python
+model = Sequential()
+model.add(Dense(64, activation='relu', kernel_constraint=MaxNorm(3), input_dim=100))
+model.add(Dropout(0.5))
+model.add(Dense(64, activation='relu', kernel_constraint=MaxNorm(3)))
+model.add(Dropout(0.5))
+model.add(Dense(10, activation='softmax'))
+
+```
+this model contains 2 hidden layers with 64 units, 2 dropout layers, uses re-Lu activation in its hidden layers and softmax in its output layer, as seen, it is very easy to fine-tune and change the parameters and components of this model, for example, the dropout rate is the only parameter that can be used for dropout layers, you can define the rate between 0 and 1, in this model, it is set as 0.5, as you try to fine-tune your model and find the optimal dropout rate for each layer, you will be able to change it very easily, this model also applies max-norm regularization which uses the parameter c, you can also tune this parameters to find the most optimal value for your model and data. 
+
+
+After defining the model, it is very easy to Compile and train the model, keras offers built in functions for this, you can set and change the optimizer for your model, along with the learning rate and decay rate, or you can import optimizers like adam who have these values set already, you can also set the number of epochs and the batch size very easily, these are values you can change depending on your training environment, too many epochs may take a very long time to train, so make sure to decrease it if you don’t want a high training time, this will most likely effect your validation, so be careful and keep your results in mind, most of our training was done with 50-500 epochs:
+
+```python
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.fit(X_train, y_train, epochs=10, batch_size=32)
+
+```
+
+To evaluate how well your models are performing, you can use the evaluate built-in function to see how your loss and validation are doing, to conduct experiments, you can use these values from all different models and compare them with eachother:
+
+```python
+loss, accuracy = model.evaluate(X_test, y_test)
+```
 
 ## Training Platform
 <!-- Provide links to additional documentation or tutorials -->
