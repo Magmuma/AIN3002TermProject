@@ -43,10 +43,33 @@ We will go over the libraries needed to build our models, import datasets, prepr
   To install TensorFlow using pip, you can run the following command in a code cell:
   ```python
   !pip install tensorflow
+  ```
   
-  
+ - **Keras**: Keras is a high-level neural networks API written in Python and built on top of TensorFlow. It provides a user-friendly and intuitive interface to define and train deep learning models.
 
-## DataSets
+To install Keras using pip, you can run the following command:
+  ```python
+  pip install keras
+  ```
+  
+- **NumPy**: NumPy is a fundamental library for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+
+To install NumPy using pip, you can run the following command:
+
+  ```python
+  pip install numpy
+  ```
+
+  
+- **Matplotlib**: Matplotlib is a plotting library for Python that provides a flexible and comprehensive set of tools for creating static, animated, and interactive visualizations in Python.
+
+To install Matplotlib using pip, you can run the following command:
+
+  ```python
+  pip install numpy
+  ```
+  
+  ## DataSets
 <!-- Explain how to use your project -->
 
 ## Models
