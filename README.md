@@ -25,7 +25,7 @@ the codes for the experiments are in the codes folder in this repository, the st
    - Regualizers
          -[Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
 
-We will go over the libraries needed to build our models, import datasets, preprocess and prepare data, and plot our results, as well as information about the training process, our method and platform of training, and the finetuning and hyperparameters used to achieve our results.
+We will go over the libraries needed to build our models, the datasets used, the model strecture and how to tune its parameters and where you can easily train the models. then, we will go over the results that we got and what conclusions they lead us into.
 
 ## Table of Contents
 - [Libraries and Packages](#LibrariesandPackages)
