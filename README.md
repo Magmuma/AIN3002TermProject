@@ -106,6 +106,8 @@ from tensorflow.keras.datasets import cifar10, cifar100
 ### 2 Classes of Datapoints
 
 this is a manually generated database that consists of 150 datapoints, the data points are separated into 2 different classes labeled 1 and 0, each class is a cluster of data points with some outlier points in the middle of the cluster of the opposite class, this is done to showcase the effects of overfitting clearly in the case of it happening.
+
+
 ![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/c34a87ca-e203-4824-9dca-99eff2a55404)
 
 
