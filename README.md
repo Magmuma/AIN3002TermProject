@@ -11,9 +11,9 @@ the codes for the experiments are in the codes folder in this repository, the st
 
 - [codes]( /codes/)
    - [CIFAR]( /codes/CIFAR/)
-   - [DNN vs BNN]( codes/DNN vs BNN/)
+   - [DNN vs BNN]( codes/DNNvsBNN/)
    - [MINST]( /codes/MINST/)
-   - [Plot DataPoints]( /codes/Plot DataPoints/)
+   - [Plot DataPoints]( /codes/PlotDataPoints/)
    - [Regualizers]( /codes/Regualizers/)
 
 
