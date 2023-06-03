@@ -27,30 +27,30 @@ We will go over the libraries needed to build our models, import datasets, prepr
 
 ## Table of Contents
 - [Libraries and Packages](#LibrariesandPackages)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
+- [DataSets](#DataSets)
+- [Models](#Models)
+- [Training Platform](#TrainingPlatform)
+- [Results Showcase](#ResultsShowcase)
+- [Conclusion](#Conclusion)
 - [Authors](#authors)
 - [Links](#links)
 
 ## Libraries and Packages
 <!-- Provide installation instructions and prerequisites -->
 
-## Usage
+## DataSets
 <!-- Explain how to use your project -->
 
-## Examples
+## Models
 <!-- Include examples or screenshots -->
 
-## Documentation
+## Training Platform
 <!-- Provide links to additional documentation or tutorials -->
 
-## Contributing
+## Results Showcase
 <!-- Explain how users can contribute to your project -->
 
-## License
+## Conclusion
 <!-- Specify the license under which your project is distributed -->
 
 ## Authors
