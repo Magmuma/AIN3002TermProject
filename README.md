@@ -26,18 +26,16 @@ the codes for the experiments are in the codes folder in this repository, the st
 We will go over the libraries needed to build our models, import datasets, preprocess and prepare data, and plot our results, as well as information about the training process, our method and platform of training, and the finetuning and hyperparameters used to achieve our results.
 
 ## Table of Contents
-- [Installation](#installation)
+- [Libraries and Packages](#Libraries and Packages)
 - [Usage](#usage)
 - [Examples](#examples)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
-- [References](#references)
 - [Links](#links)
 
-## Installation
+## Libraries and Packages
 <!-- Provide installation instructions and prerequisites -->
 
 ## Usage
@@ -59,11 +57,6 @@ We will go over the libraries needed to build our models, import datasets, prepr
 - Mohammed Ali Maghmoum - [Email](mailto:mohamedali.maghmoum@bahcesehir.edu.tr)
 - Hashem Ali Alshami - [Email](mailto:ali.alshami1@bahcesehir.edu.tr)
 
-## Acknowledgments
-<!-- Acknowledge any individuals, organizations, or resources you want to thank -->
-
-## References
-<!-- List any referenced sources or papers -->
 
 ## Links
 - [GitHub Repository](https://github.com/Magmuma/AIN3002TermProject)
