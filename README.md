@@ -10,17 +10,17 @@ we conducted a number of separate experiments to test the effectiveness of using
 the codes for the experiments are in the codes folder in this repository, the structure of the file is as follows:
 
 - [codes]( /codes/)
-   - [CIFAR]
+   - CIFAR
          -[CIFAR-10](codes/CIFAR/CIFAR_10.ipynb)
          -[CIFAR-100](codes/CIFAR/CIFAR_100.ipynb)
-   - [DNN vs BNN]
+   - DNN vs BNN
          -[DNNvsBNN]( codes/DNNvsBNN/DNNvsBNN.ipynb)
-   - [MINST]
+   - MINST
          -[MINSTdropouteffects]( /codes/MINST/MINSTdropouteffects.ipynb)
-   - [Plot DataPoints]
+   - Plot DataPoints
          -[classification](/codes/PlotDataPoints/dropoutClassifcationOverfittingExample.ipynb)
          -[regression](/codes/PlotDataPoints/regression.ipynb)
-   - [Regualizers]
+   - Regualizers
          -[Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
 
 
