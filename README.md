@@ -36,7 +36,15 @@ We will go over the libraries needed to build our models, import datasets, prepr
 - [Links](#links)
 
 ## Libraries and Packages
-<!-- Provide installation instructions and prerequisites -->
+
+
+- **TensorFlow**: TensorFlow is an open-source machine learning framework widely used for building and training deep learning models. It provides a comprehensive set of tools and libraries for numerical computation, dataflow programming, and building neural networks.
+
+  To install TensorFlow using pip, you can run the following command in a code cell:
+  ```python
+  !pip install tensorflow
+  
+  
 
 ## DataSets
 <!-- Explain how to use your project -->
