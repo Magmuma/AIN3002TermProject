@@ -4,7 +4,7 @@ the term project for the 2022/2023 second semester course AIN3002 (Deep Learning
 
 # Examining the Impact of Dropout on Overfitting in Deep Learning Architectures
 
-this repository contains the codes and resources needed to implement the experiments described in the project report.
+this repository contains the codes and resources needed to implement the experiments described in the [project report].
 
 ## Table of Contents
 - [Installation](#installation)
