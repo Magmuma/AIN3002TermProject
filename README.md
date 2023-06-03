@@ -67,6 +67,10 @@ To install Matplotlib using pip, you can run the following command:
   
   ## DataSets
 
+To install the necessary packages for accessing the datasets offered by tensorflow, you can run the following command in a code cell:
+```python
+!pip install tensorflow-datasets
+```
 
 ### MNIST
 
