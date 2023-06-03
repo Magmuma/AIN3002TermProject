@@ -143,7 +143,17 @@ loss, accuracy = model.evaluate(X_test, y_test)
 ```
 
 ## Training Platform
-<!-- Provide links to additional documentation or tutorials -->
+
+Make sure to run these codes on a powerful machine, training machine learning models usually take a lot of computational power, so it’s best to train on GPUs, thankfully, google collab provides free to use GPU training on their platform, and we conducted our experiments using their services, it is very easy to use google collab, all you need is your google account, and you can visit their site and create or upload a new notebook.
+It is important to remember to turn on GPU training, otherwise, collab will default run your code on its CPU, this makes training a very long and slow process, to turn on GPU training, click on the ram and disk usage icon on the top right:
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/c133b6c0-0b11-42b0-ae79-eeb995034f12)
+
+ after the resources window opens up on the left of the screen, look to the bottom left, and click on the “change runtime type” option, after doing so, a pop-up will appear, in the hardware accelerator section, make sure that GPU is chosen, Collab offers different type of GPUs to train on, however, most of them are only available for CollabPro users, a paid service by google Collab, you can still use the free-to-use T4 GPU that contains 15GB, for our tasks, this should be plenty enough:
+ 
+ ![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/fb9d7e87-ffb3-41dd-b949-7374e3b4a975)
+
+
 
 ## Results Showcase
 <!-- Explain how users can contribute to your project -->
