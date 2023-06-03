@@ -82,6 +82,26 @@ from tensorflow.keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
 
+### CIFAR-10/100
+
+The CIFAR-10 and CIFAR-100 datasets are popular benchmark datasets for image classification tasks. CIFAR-10 consists of 60,000 32x32 color images in 10 classes, while CIFAR-100 consists of 60,000 32x32 color images in 100 classes.
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/3d43474b-7eee-4125-b1d6-2a059595b437)
+
+To import the CIFAR-10 and CIFAR-100 datasets from TensorFlow, you can use the following code:
+
+```python
+from tensorflow.keras.datasets import cifar10, cifar100
+
+# Load the CIFAR-10 dataset
+(x_train, y_train), (x_test, y_test) = cifar10.load_data()
+
+# Load the CIFAR-100 dataset
+(x_train, y_train), (x_test, y_test) = cifar100.load_data(label_mode='fine')
+
+```
+
+
 
 ## Models
 <!-- Include examples or screenshots -->
