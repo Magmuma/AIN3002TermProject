@@ -233,7 +233,10 @@ Similar to the classification task, 2 identical models with the same parameters 
 
 ![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/db57257d-fe17-45f5-b39b-f7cb105c6127)
 
+in general, incorporating dropout techniques enhances the performance of models by mitigating the impact of overfitting. However, it is worth noting that this improvement was not consistently observed across all models. Specifically, models 3, 6, and 7 experienced a decline in performance when dropout was applied. Model 3, which shares the same architecture as model 2 but utilizes the relu activation function, consistently exhibited underperformance when combined with dropout. On the other hand, models 6 and 7, both wide models with an increased number of units, demonstrated a substantial decrease in accuracy when the dropout rates remained unchanged. These results suggest that the interaction between dropout and specific model architectures or activation functions can lead to unexpected outcomes, underscoring the importance of careful analysis and parameter selection when implementing dropout.
 
+### [CIFAR-10](codes/CIFAR/CIFAR_10.ipynb) and -[CIFAR-100](codes/CIFAR/CIFAR_100.ipynb)
+         
 
 
 ## Conclusion
