@@ -235,7 +235,13 @@ Similar to the classification task, 2 identical models with the same parameters 
 
 in general, incorporating dropout techniques enhances the performance of models by mitigating the impact of overfitting. However, it is worth noting that this improvement was not consistently observed across all models. Specifically, models 3, 6, and 7 experienced a decline in performance when dropout was applied. Model 3, which shares the same architecture as model 2 but utilizes the relu activation function, consistently exhibited underperformance when combined with dropout. On the other hand, models 6 and 7, both wide models with an increased number of units, demonstrated a substantial decrease in accuracy when the dropout rates remained unchanged. These results suggest that the interaction between dropout and specific model architectures or activation functions can lead to unexpected outcomes, underscoring the importance of careful analysis and parameter selection when implementing dropout.
 
-### [CIFAR-10](codes/CIFAR/CIFAR_10.ipynb) and -[CIFAR-100](codes/CIFAR/CIFAR_100.ipynb)
+### [CIFAR-10](codes/CIFAR/CIFAR_10.ipynb) and [CIFAR-100](codes/CIFAR/CIFAR_100.ipynb)
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/20a076b5-51e6-4681-a785-b68f895b6170)
+
+The same model of was tried on the 2 datasets with and without adding fully connected layers with dropout, the dropout models showed a noticeable increase in the performance.
+The model architecture used for this experiment combines convolutional layers for extracting spatial features from the input images with fully connected layers for classification. For the dropout model, a dropout rate of 0.5 was used in the fully connected layers.
+
          
 
 
