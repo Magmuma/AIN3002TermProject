@@ -270,7 +270,15 @@ Dropout rate and other parameters were unchanged throughout the models, dropout 
 
 
 ## Conclusion
-<!-- Specify the license under which your project is distributed -->
+
+
+Dropout has emerged as an innovative regularization technique in the field of machine learning, offering a simple yet effective solution to tackle the problem of overfitting in deep neural networks. By randomly deactivating certain units during training, dropout prevents complex co-adaptations and reduces the model's reliance on specific features, thereby promoting better generalization. Extensive experiments using different architectures and datasets like MNIST and CIFAR have consistently demonstrated the efficacy of dropout, although its impact may vary depending on the specific models and configurations employed.
+
+One of the notable advantages of dropout is its superiority over traditional regularizers such as max-norm and L2 in various scenarios. This further strengthens its utility in improving the generalization capability of models. However, it is worth mentioning that dropout does not always guarantee improved performance and there have been instances where its application resulted in a decrease in model accuracy. This raises the question of whether dropout is the optimal method for reducing overfitting across all machine learning models.
+
+In comparison to Bayesian Neural Networks, dropout can be viewed as a technique that combines multiple pre-trained models. However, it generally underperforms when compared to Bayesian approaches. Nevertheless, dropout still provides an efficient and computationally cost-effective way to average the predictions of many trained models, which can be beneficial in certain applications.
+
+As the field of machine learning continues to evolve, it is crucial to understand and consider both the strengths and limitations of dropout in specific applications and datasets. While dropout has proven its effectiveness in preventing overfitting and improving model generalization, researchers and practitioners should carefully evaluate its suitability for their particular use cases. By considering the constantly evolving landscape of machine learning techniques, we can make informed decisions about when and where to leverage dropout for optimal results.
 
 ## Authors
 - Mohammed Ali Maghmoum - [Email](mailto:mohamedali.maghmoum@bahcesehir.edu.tr)
@@ -279,3 +287,6 @@ Dropout rate and other parameters were unchanged throughout the models, dropout 
 
 ## Links
 - [GitHub Repository](https://github.com/Magmuma/AIN3002TermProject)
+- [reference paper](https://paperswithcode.com/paper/dropout-a-simple-way-to-prevent-neural)
+- [Keras website](https://keras.io/)
+- [Google Collab](https://colab.research.google.com/)
