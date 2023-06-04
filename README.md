@@ -195,7 +195,7 @@ loss, accuracy = model.evaluate(X_test, y_test)
 
 ## Training Platform
 
-Make sure to run these codes on a powerful machine, training machine learning models usually take a lot of computational power, so it’s best to train on GPUs, thankfully, google collab provides free to use GPU training on their platform, and we conducted our experiments using their services, it is very easy to use google collab, all you need is your google account, and you can visit [their site](https://colab.research.google.com/) and create or upload a new notebook.
+Make sure to run these codes on a powerful machine, training machine learning models usually take a lot of computational power, so it’s best to train on GPUs, thankfully, google collab provides a python enviorment completed with many common libreries and free to use GPU training on their platform, and we conducted our experiments using their services, it is very easy to use google collab, all you need is your google account, and you can visit [their site](https://colab.research.google.com/) and create or upload a new notebook.
 It is important to remember to turn on GPU training, otherwise, collab will default run your code on its CPU, this makes training a very long and slow process, to turn on GPU training, click on the ram and disk usage icon on the top right:
 
 ![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/c133b6c0-0b11-42b0-ae79-eeb995034f12)
