@@ -208,7 +208,7 @@ It is important to remember to turn on GPU training, otherwise, collab will defa
 
 ## Results Showcase
 
-### [data points classification](/codes/PlotDataPoints/dropoutClassifcationOverfittingExample.ipynb)
+### [Data Points Classification](/codes/PlotDataPoints/dropoutClassifcationOverfittingExample.ipynb)
 
 ![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/a432f14e-0262-4a05-937c-69e0de85b36d)
 
@@ -221,6 +221,17 @@ The models were trained for 500 epochs, this is not a very large dataset so the 
 The results clearly show overfitting of the data in the first model without dropout, this is represented in both the training and validation accuracies plot as well as the classified data point plot, the model had a very high training validation, reaching almost 100% training accuracy near the ending of the training process,  but this is in contrast to the validation accuracy, which dropped much further below at around 80%, with it dropping as low as 65% during some points in the training.
 
 The second model, with all parameters of the model still the same, showed that dropout did, in fact, prevent overfitting, the datapoint plot showcases that the data didn’t overfit the model, and the training and validation accuracies stayed close to each other throughout the training processes.
+
+
+### [DataPoint Regression](/codes/PlotDataPoints/regression.ipynb)
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/d381795d-6e65-4a49-87e0-abe3066ac7b7)
+
+Similar to the classification task, 2 identical models with the same parameters were used, with dropout deployed on one of them, here we can see how the first models overfits the data, while the model with dropout prevents it, dropout rate was set to 0.2 this time around, the models used had 2 hidden layers with 128 units each.
+
+### [MINST dropout effects]( /codes/MINST/MINSTdropouteffects.ipynb)
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/db57257d-fe17-45f5-b39b-f7cb105c6127)
 
 
 
