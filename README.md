@@ -64,7 +64,7 @@ To install NumPy using pip, you can run the following command:
 To install Matplotlib using pip, you can run the following command:
 
   ```python
-  pip install numpy
+  pip install matplotlib
   ```
   
   ## DataSets
