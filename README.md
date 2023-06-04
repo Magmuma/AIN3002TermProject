@@ -207,7 +207,9 @@ It is important to remember to turn on GPU training, otherwise, collab will defa
 
 
 ## Results Showcase
-<!-- Explain how users can contribute to your project -->
+
+###[Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
+
 
 ## Conclusion
 <!-- Specify the license under which your project is distributed -->
