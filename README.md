@@ -208,7 +208,7 @@ It is important to remember to turn on GPU training, otherwise, collab will defa
 
 ## Results Showcase
 
-###[Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
+### [Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
 
 
 ## Conclusion
