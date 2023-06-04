@@ -239,7 +239,8 @@ in general, incorporating dropout techniques enhances the performance of models 
 
 ![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/20a076b5-51e6-4681-a785-b68f895b6170)
 
-The same model of was tried on the 2 datasets with and without adding fully connected layers with dropout, the dropout models showed a noticeable increase in the performance.
+The same model of was tried on the 2 datasets with and without adding fully connected layers with dropout, the dropout models showed a noticeable increase in the performance as the classification error is reduced.
+
 The model architecture used for this experiment combines convolutional layers for extracting spatial features from the input images with fully connected layers for classification. For the dropout model, a dropout rate of 0.5 was used in the fully connected layers.
 
          
