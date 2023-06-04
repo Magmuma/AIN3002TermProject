@@ -104,6 +104,21 @@ from tensorflow.keras.datasets import cifar10, cifar100
 
 ```
 
+for preprocessing, we simply normalized the pixel values of the images by dividing them by 255.0. The original pixel values range from 0 to 255, where 0 represents black and 255 represents white. Dividing by 255.0 scales the pixel values to the range of 0.0 to 1.0, which is a common practice for neural networks that process image data. Normalization helps to ensure that the model can learn effectively by reducing the impact of different scales and improving convergence during training.
+
+By performing this normalization, the pixel values of the images are transformed from the original integer range to a floating-point range between 0.0 and 1.0, making it easier for neural networks to process and learn patterns from the data.
+
+```python
+
+(train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
+
+
+train_images, test_images = train_images / 255.0, test_images / 255.0
+
+
+```
+
+
 ### 2 Classes of Datapoints
 
 this is a manually generated database that consists of 150 datapoints, the data points are separated into 2 different classes labeled 1 and 0, each class is a cluster of data points with some outlier points in the middle of the cluster of the opposite class, this is done to showcase the effects of overfitting clearly in the case of it happening.
