@@ -118,6 +118,16 @@ train_images, test_images = train_images / 255.0, test_images / 255.0
 
 ```
 
+For the CIFAR-100 dataset, we added an extra line of preprocessing, This line converts the training set labels into binary class matrices using the to_categorical() function. The original labels are represented as integers ranging from 0 to 99, representing the 100 classes in CIFAR-100. The to_categorical() function converts these integer labels into binary matrices, where each row corresponds to a sample, and each column represents a class. The column corresponding to the true class is set to 1, while all other columns are set to 0. This conversion is necessary for training certain types of neural networks, such as those using categorical cross-entropy loss.
+
+
+```python
+
+train_labels = to_categorical(train_labels, 100)
+test_labels = to_categorical(test_labels, 100)
+
+```
+
 
 ### 2 Classes of Datapoints
 
