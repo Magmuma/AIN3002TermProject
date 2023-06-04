@@ -243,7 +243,30 @@ The same model of was tried on the 2 datasets with and without adding fully conn
 
 The model architecture used for this experiment combines convolutional layers for extracting spatial features from the input images with fully connected layers for classification. For the dropout model, a dropout rate of 0.5 was used in the fully connected layers.
 
+
+### [DNNvsBNN]( codes/DNNvsBNN/DNNvsBNN.ipynb)
+
+
+
+
+Dropout and Bayesian neural networks are both techniques used for model averaging, but they have distinct approaches. Dropout involves averaging multiple models with shared weights, giving equal weight to each model. On the other hand, Bayesian neural networks assign weights to individual models based on the prior and how well they fit the data. Bayesian neural networks are particularly effective in domains with limited data, such as medical diagnosis and genetics. However, they are slower to train and may struggle to scale to large networks. In contrast, dropout networks are faster to train and more straightforward to use during testing.
+
+To evaluate and compare the performance of Bayesian neural networks and dropout networks, an experiment was conducted using the MNIST dataset. The objective of the experiment was to assess the extent to which dropout networks fall short in comparison to Bayesian networks in terms of performance.
+
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/34454584-ef71-4ecf-a1d5-5a2f213ff25d)
          
+As expected, dropout fell a bit short in comparison, however, considering the simplicity of dropout, it can be argued that it was the more efficient method for averaging out these models.
+
+### [Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
+
+In the context of regularization techniques, dropout is a method that is being evaluated in comparison to other standard regularization methods such as max-norm and L2 regularization. The experiment focuses on observing and analyzing the performance of dropout when applied to a model tasked with classification using the MNIST dataset. The specific architecture of the model consists of three layers with sizes 1024, 1024, and 2048 respectively. In this experiment, a dropout rate of 0.2 is applied to all layers of the model. The goal is to assess how dropout, as a regularization technique, compares to other established regularization methods in terms of improving model performance and generalization on the MNIST dataset.
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/62f90708-682c-42b0-b22c-60e703be6b82)
+
+Based on these results, we can see that max-norm and max-norm with dropout achieved the best accuracy and the lowest error, with L2, L2 + KL sparsity, and L2+dropout performing the worst, this is again another example that showcases dropout does not always improve results across all models. Dropout was able to slightly Improve the performance of max-norm, but significantly lowered the performance L2.
+
+Dropout rate and other parameters were unchanged throughout the models, dropout rate was 0.2, c for max-norm was 3, and regularization rate for L2 was 0.001.
 
 
 ## Conclusion
