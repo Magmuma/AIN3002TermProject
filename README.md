@@ -16,7 +16,7 @@ the codes for the experiments are in the codes folder in this repository, the st
          -[CIFAR-10](codes/CIFAR/CIFAR_10.ipynb)
          -[CIFAR-100](codes/CIFAR/CIFAR_100.ipynb)
    - DNN vs BNN
-         -[DNNvsBNN]( codes/DNN-vs-BNN/DNNvsBNN.ipynb)
+         -[DNNvsBNN]( codes/DNN vs BNN/DNNvsBNN.ipynb)
    - MINST
          -[MINSTdropouteffects]( /codes/MINST/MINSTdropouteffects.ipynb)
    - Plot DataPoints
