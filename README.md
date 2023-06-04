@@ -85,7 +85,32 @@ To import the MNIST dataset from TensorFlow, you can use the following code:
 from tensorflow.keras.datasets import mnist
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
+
 ```
+
+for preprocessing on MINST, we first converted the pixel values of the training and test images to floating-point numbers and then normalized them by dividing by 255. The original pixel values are integers ranging from 0 to 255, and dividing by 255 scales them to the range of 0.0 to 1.0.
+
+after that, we reshape the training and test images from a 3D array (representing images with dimensions of 28x28 pixels) to a 2D array. Each image is flattened into a 1D array of size 784 (28*28) pixels. This transformation is necessary to feed the data into a neural network that expects a 2D input.
+
+we then add a line that converts the training and test labels (y) into one-hot encoded vectors using the to_categorical() function from the tf.keras.utils module. The original labels are integers ranging from 0 to 9, representing the digits from 0 to 9. One-hot encoding transforms these integer labels into binary vectors, where each element of the vector represents a class. The index corresponding to the true class is set to 1, while all other indices are set to 0.
+
+
+```python
+# Normalize pixel values to range [0, 1]
+X_train = X_train.astype('float32') / 255.
+X_test = X_test.astype('float32') / 255.
+
+# Reshape input data into 2D array (28x28 pixels)
+X_train = X_train.reshape(len(X_train), 28*28)
+X_test = X_test.reshape(len(X_test), 28*28)
+
+# Convert target variable to one-hot encoding
+y_train = tf.keras.utils.to_categorical(y_train, num_classes=10)
+y_test = tf.keras.utils.to_categorical(y_test, num_classes=10)
+
+```
+
+
 
 ### CIFAR-10/100
 
