@@ -208,7 +208,10 @@ It is important to remember to turn on GPU training, otherwise, collab will defa
 
 ## Results Showcase
 
-### [Regualizers Comparison](/codes/Regualizers/RegualizersComparison.ipynb)
+### [data points classification](/codes/PlotDataPoints/dropoutClassifcationOverfittingExample.ipynb)
+
+![image](https://github.com/Magmuma/AIN3002TermProject/assets/63364100/a432f14e-0262-4a05-937c-69e0de85b36d)
+
 
 
 ## Conclusion
